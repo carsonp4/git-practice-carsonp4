@@ -1,0 +1,15 @@
+f92dd71 Merge branch 'main' of github.com:carsonp4/git-practice-carsonp4
+7a7b1f7 Fix files
+ed3dc40 Merge pull request #1 from SamLeeBYU/feature-SamLeeBYU
+1726c2d Add sam.txt
+3b2d2b5 Change text in new_feature
+56f564f Change text in new_feature
+3da6199 Merge branch 'features' Add in new_features file
+eb5d158 Add text to file_1
+b6619a1 Add text to new_features
+a4ed3b4 add empty file
+44555d7 Add gitignore file
+2603193 Add readme file
+08e931f Edit file_2
+897f1af Edit file_1
+a45c2e8 create new files

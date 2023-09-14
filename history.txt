@@ -1,0 +1,134 @@
+  835  brew install git
+  836  git --version
+  837  git config --global use.name "Carson Payne"
+  838  git config --global user.email "carsonpayne4@gmail.com"
+  839  git config --global core.editor "code --wait"
+  840  git config --global init.defaultBrach main
+  844  git config --global init.defaultBranch main
+  845  git config --list
+  846  git config --global user.name “Carson Payne”
+  847  git config --list
+  848  git config --global user.name “Carson Payne”
+  849  git config --list
+  850  git config --global user.name "Carson Payne"
+  854  mkdir git_practice
+  855  cd git_practice
+  857  git status
+  858  git init
+  859  git status
+  861  rm -rf .git
+  862  git status
+  863  git init
+  865  git status
+  866  git add file_1.txt
+  867  git status
+  868  git commit -m "Created file_1"
+  869  git status
+  870  git log
+  872  git status
+  873  git add .
+  876  git status
+  877  git commit -m "Edited text files"
+  878  git status
+  879  git log
+  882  cd git_practice
+  883  touch .gitignore
+  884  nano .gitignore
+  886  git status
+  887  git add .
+  888  git commit - m "Create .gitignore"
+  889  git commit - m "Create gitignore"
+  890  git status
+  891  git commit -m "Create gitifnore"
+  892  git status
+  893  git log
+  894  git branch
+  895  git branch new_feature
+  896  git switch new_feature
+  897  git branch
+  899  git add .
+  900  git commit -m "Create feature file"
+  901  git log
+  902  git branch
+  903  git switch main
+  904  git merge new_feature
+  905  git log
+  906  git remote add origin git@github.com:carsonp4/git-practice-carsonp4.git
+  907  git push -u origin main
+  913  cd git_practice
+  914  git init
+  916  git status
+  919  git statue
+  920  git status
+  921  git add .
+  922  git status
+  923  git commit -m "create new files"
+  924  git status
+  925  git log
+  928  git status
+  929  git add file_1.txt
+  930  git status
+  931  git commit -m "Edit file_1"
+  932  git add .
+  933  git commit -m "Edit file_2"
+  934  git log
+  937  git add .
+  938  git commit -m "Add readme file"
+  939  touch .gitignore
+  940  touch .gitignore
+  943  nano .gitignore
+  944  git add .
+  945  git status
+  946  git commit -m "Add gitignore file"
+  948  git status
+  950  git status
+  951  git branch features
+  952  git switch features
+  953  git log
+  954  git branch
+  956  git add .
+  957  git commit -m "add empty file"
+  959  git add .
+  960  git commit -m "Add text to new_features"
+  961  git log
+  962  git switch main
+  965  git add .
+  966  git commit -m "Add text to file_1"
+  967  git merge features
+  968  git log
+  969  git branch
+  971  git add .
+  972  git commit -m "Change text in new_feature"
+  973  git switch features
+  975  git add .
+  976  git commit -m "Change text in new_feature"
+  977  git switch main
+  978  git merge features
+  979  git merge features
+  980  git merge features
+  981  git branch -d features
+  982  git branch -D features
+  983  git remote add origin git@github.com:carsonp4/git-practice-carsonp4.git
+  984  git push -u origin main
+  985  git clone git@github.com:carsonp4/git-practice-SamLeeBYU.git
+  987  cd git-practice-SamLeeBYU
+  988  git branch feature-carsonp4
+  992  git add .
+  993  git commit -m "Add Carson file"
+  994  git push origin feature-carsonp4
+  995  git switch feature-carsonp4
+  998  git add .
+  999  git commit -m "Add carson file"
+ 1000  git push origin feature-carsonp4
+ 1003  cd git_practice
+ 1004  git log
+ 1005  git pull
+ 1006  git branches
+ 1007  git branch
+ 1008  git pull
+ 1009  git add .
+ 1010  git commit -m "Fix files"
+ 1011  git pull
+ 1012  git config pull.rebase false
+ 1013  git pull
+ 1014  git log --oneline > gitlog.txt
